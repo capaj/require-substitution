@@ -11,7 +11,7 @@ npm i require-substitution
 ## Usage
 
 ```javascript
-const transformRequire = require('./ignore-require')
+const transformRequire = require('require-substitution')
 transformRequire.add((path) => {  // sample
   if (path.endsWith('.css') || path.endsWith('.scss')) {
     return null // but you could also fs.read those files and save them somewhere to serve them inside index.html
