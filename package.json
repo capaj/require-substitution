@@ -1,0 +1,26 @@
+{
+  "name": "require-substitution",
+  "version": "1.0.0",
+  "description": "allows to intercept a require call and change the output of it",
+  "main": "index.js",
+  "scripts": {
+    "test": "ava"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/capaj/require-substitution.git"
+  },
+  "keywords": [
+    "node",
+    "require"
+  ],
+  "author": "capajj@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/capaj/require-substitution/issues"
+  },
+  "homepage": "https://github.com/capaj/require-substitution#readme",
+  "devDependencies": {
+    "ava": "^0.14.0"
+  }
+}
