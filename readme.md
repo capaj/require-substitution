@@ -1,4 +1,5 @@
 # require-substitution
+[![NPM badge](https://nodei.co/npm/require-substitution.png?downloads=false&downloadRank=false&stars=true)](https://nodei.co/npm/moonridge/)
 
 This is a simpler version of mockery and handful of other tools for mocking modules. This one has been created just for the purpose of running webpack browser side scripts inside node.js. Webpack has couple of loaders, which aren't supported in node.js. In some cases for isomorphic rendering, you might not want to build and bundle your app with webpack to use on the server, rather you'd like to require it inside node directly from source code. This package helps with that-requires of css/scss/less files can be safely ignored.
 
