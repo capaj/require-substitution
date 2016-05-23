@@ -6,6 +6,9 @@
   "scripts": {
     "test": "ava"
   },
+  "engines": {
+    "node": ">=5"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/capaj/require-substitution.git"
